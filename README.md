@@ -36,6 +36,28 @@ The BJT has three pins, which are collector, base and emitter and it’s connect
 
 
 ## LEDs
-LED (Light Emitting Diode) is semiconductor the emit the light when the forward current is passing through it. It has two terminals, which are Anode (+ terminal) and Cathode (- terminal) .
+LED (Light Emitting Diode) is semiconductor the emit the light when the forward current is passing through it. It has two terminals, which are Anode (+ terminal) and Cathode (- terminal), that connected in the circuit as (https://www.tinkercad.com/things/4BwuG6ZkqYs-robot-led-eyes/editel?sharecode=3MwbesQv30LCfzxJJLYYTF5PRujqHz5UvhuBmacL_F0).
+
 Because the robot has 2 eyes, the number of LEDs must be at least 2, but the question is “what is the type of the connection between two LEDs? Is it series or parallel and why?”
 The answer is series, for several reasons, one of them is saving the power consumption by reducing the total current of the circuit.
+
+## Code
+
+// C++ code
+//
+
+void setup()
+
+{
+
+pinMode(5, OUTPUT);
+
+}
+
+void loop()
+
+{
+
+analogWrite(5, 127);
+
+}

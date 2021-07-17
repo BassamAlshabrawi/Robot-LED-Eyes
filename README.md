@@ -4,7 +4,7 @@
 When we say what the robot is, the simplest definition of the robot is half of him human and half of him is machine, which means simulate the organs of the human into the machine.
 In this project we will simulate the human’s eyes into the machine to be called “Robot eyes”, There are too many methods to simulate the robot’s eyes, one of them is using LEDs, that what we did in the project.
 
-##Components
+## Components
 *	9V Battery
 *	7805 Voltage Regulator
 * 2x Capacitor
